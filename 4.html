@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>202578086 서예준</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- 초기화 -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        img{border: 0;}
+        li{list-style: none;}
+    </style>
+    <!-- 공통 -->
+    <style>
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    </style>
+    <!-- 헤더 -->
+    <style>
+        #main-header{
+            padding: 10px 5px;
+        }
+        #main-header h1 {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #222
+        }
+        #main-header ul{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        #main-header li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #main-header li a{
+            color: #555;
+        }
+        #main-header li.active a{
+            color: black;
+            font-weight: 500;
+        }
+        #main-header label{
+            text-align: center;
+            float: right;
+            width: 40px;
+            height: 27px;
+            line-height: 27px;
+            color: #222;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+        #checkbox {
+            display: none;
+        }
+        #checkbox + nav{
+            display: block;
+        }
+        #checkbox:checked + nav{
+            display: none;
+        }
+    </style>
+    <!-- 본문과 푸터 -->
+    <style>
+        #main-content{
+            background:#509ccf;
+            padding: 40px 15px 30px;
+        }
+        #main-content h1{
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 500;
+        }
+        #main-content p{
+            color: #222;
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main-header">
+        <header class="container">
+            <div>
+                <label for="checkbox">▼</label>
+                <a href="https://rapids1647-cmyk.github.io/1.html"><h1 style="font-family: Arial">202578086 서예준</h1></a>
+            </div>
+            <input id="checkbox" checked="checked" type="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="1.html">메인 메뉴<a></li>
+                    <li><a href="2.html">기본 정보</a></li>
+                    <li><a href="3.html">좋아하는 것/싫어하는 것</a></li>
+                    <li class="active"><a href="4.html">취미</a></li>
+                    <li><a href="5.html">이루고 싶은 것</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main-content">
+        <article class="container">
+            <h1>취미</h1>
+        </article>
+    </div>
+    <div id="sub-content">
+        <article class="container">
+            <h1 style="font-family: Arial"><b>야구</b></h1>
+            <video src="video/타격.mp4" width="300"controls loop></video><br>
+            <img src="img/타격2.jpg" width="300"><br>
+            <p>야구를 보는 것도 좋아하지만 직접 경기에 뛰는 것도 좋아해서 친구들이랑 캐치볼, 수비 연습 등을 한다.</p><br>
+            <h1 style="font-family: Arial"><b>노래 듣기</b></h1><br>
+            <img src="img/유튜브 리캡.jpg" width="300"><br>
+            <p>심심할때 유튜브 뮤직을 사용해서 듣거나 앨범 CD로 들으며 감상을 즐긴다.</p><br>
+            <h1 style="font-family: Arial"><b>게임</b></h1><br>
+            <img src="img/스팀1.jpg" width="300"><img src="img/스팀2.jpg" width="300"><img src="img/스팀3.jpg" width="300"><img src="img/스팀4.jpg" width="300"><img src="img/스팀5.jpg" width="300"><br>
+            <img src="img/에픽1.png" width="450"><img src="img/에픽2.png" width="450"><img src="img/에픽3.png" width="450"><br>
+            <p>친구들과 다양한 게임을 하며 시간을 보낸다.</p>
+        </article>
+    </div>
+</body>
+</html>

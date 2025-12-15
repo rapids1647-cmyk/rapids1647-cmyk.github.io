@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>202578086 서예준</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- 초기화 -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        img{border: 0;}
+        li{list-style: none;}
+    </style>
+    <!-- 공통 -->
+    <style>
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    </style>
+    <!-- 헤더 -->
+    <style>
+        #main-header{
+            padding: 10px 5px;
+        }
+        #main-header h1 {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #222
+        }
+        #main-header ul{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        #main-header li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #main-header li a{
+            color: #555;
+        }
+        #main-header li.active a{
+            color: black;
+            font-weight: 500;
+        }
+        #main-header label{
+            text-align: center;
+            float: right;
+            width: 40px;
+            height: 27px;
+            line-height: 27px;
+            color: #222;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+        #checkbox {
+            display: none;
+        }
+        #checkbox + nav{
+            display: block;
+        }
+        #checkbox:checked + nav{
+            display: none;
+        }
+    </style>
+    <!-- 본문과 푸터 -->
+    <style>
+        #main-content{
+            background:#509ccf;
+            padding: 40px 15px 30px;
+        }
+        #main-content h1{
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 500;
+        }
+        #main-content p{
+            color: #222;
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main-header">
+        <header class="container">
+            <div>
+                <label for="checkbox">▼</label>
+                <a href="https://rapids1647-cmyk.github.io/1.html"><h1 style="font-family: Arial">202578086 서예준</h1></a>
+            </div>
+            <input id="checkbox" checked="checked" type="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="1.html">메인 메뉴<a></li>
+                    <li class="active"><a href="2.html">기본 정보</a></li>
+                    <li><a href="3.html">좋아하는 것/싫어하는 것</a></li>
+                    <li><a href="4.html">취미</a></li>
+                    <li><a href="5.html">이루고 싶은 것</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main-content">
+        <article class="container">
+            <h1>기본 정보</h1>
+        </article>
+    </div>
+    <div id="sub-content">
+        <img src="img/증명사진.jpg" width="300"><br>
+        <h2 style="font-family: Arial">이름: 서예준</h2><br>
+        <h2 style="font-family: Arial">생년월일: 2006/05/11(만 19세)</h2><br>
+        <h2 style="font-family: Arial">성별: 남성</h2><br>
+        <h2 style="font-family: Arial">거주지: 서울특별시 관악구 서원동</h2><img src="img/서울지도.png"><p>출처: 서울 지도검색서비스 <a href="https://cis.seoul.go.kr/TotalAlimi_new/SearchMap.action?cmd=searchmap#list">https://cis.seoul.go.kr/TotalAlimi_new/SearchMap.action?cmd=searchmap#list</a></p><br>
+        <h2 style="font-family: Arial">학력: 서울신림초등학교(졸업) - 신관중학교(졸업) - 성보고등학교(졸업) - 한신대학교(AISW계열 25학번,재학)</h2><br>
+        <h2 style="font-family: Arial">신체: 172cm/64kg</h2>
+    </div>
+</body>
+</html>

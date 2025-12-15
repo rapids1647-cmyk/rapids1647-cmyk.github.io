@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>202578086 서예준</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!-- 초기화 -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        img{border: 0;}
+        li{list-style: none;}
+    </style>
+    <!-- 공통 -->
+    <style>
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    </style>
+    <!-- 헤더 -->
+    <style>
+        #main-header{
+            padding: 10px 5px;
+        }
+        #main-header h1 {
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 27px;
+            color: #222
+        }
+        #main-header ul{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        #main-header li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #main-header li a{
+            color: #555;
+        }
+        #main-header li.active a{
+            color: black;
+            font-weight: 500;
+        }
+        #main-header label{
+            text-align: center;
+            float: right;
+            width: 40px;
+            height: 27px;
+            line-height: 27px;
+            color: #222;
+            border: 1px solid #222;
+            border-radius: 5px;
+        }
+        #checkbox {
+            display: none;
+        }
+        #checkbox + nav{
+            display: block;
+        }
+        #checkbox:checked + nav{
+            display: none;
+        }
+    </style>
+    <!-- 본문과 푸터 -->
+    <style>
+        #main-content{
+            background:#509ccf;
+            padding: 40px 15px 30px;
+        }
+        #main-content h1{
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: 500;
+        }
+        #main-content p{
+            color: #222;
+            text-align: center;
+            color: white;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main-header">
+        <header class="container">
+            <div>
+                <label for="checkbox">▼</label>
+                <a href="https://rapids1647-cmyk.github.io/1.html"><h1 style="font-family: Arial">202578086 서예준</h1></a>
+            </div>
+            <input id="checkbox" checked="checked" type="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="1.html">메인 메뉴<a></li>
+                    <li><a href="2.html">기본 정보</a></li>
+                    <li class="active"><a href="3.html">좋아하는 것/싫어하는 것</a></li>
+                    <li><a href="4.html">취미</a></li>
+                    <li><a href="5.html">이루고 싶은 것</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="main-content">
+        <article class="container">
+            <h1>좋아하는 것/싫어하는 것</h1>
+        </article>
+    </div>
+    <div id="sub-content">
+        <article class="container">
+            <h1 style="font-family: Arial"><b>좋아하는 것</b></h1><br>
+            <h2 style="font-family: Arial">J-POP</h2><p>2020년 코로나로 할게 없어져 일본 애니메이션을 본 것을 기점으로 J-POP도 즐겨듣게 됨.</p><br>
+            <img src="img/미나미.jpg" width="200"><h3 style="font-family: Arial">MINAMI</h3><p>일본의 싱어송라이터로서 2015년부터 활동을 시작했고, 풍부한 감정표현과 폭발적인 발성이 특징.</p><br><h4 style="font-family: Arial">주요곡</h4><p>목마름을 외치다</p><audio src="audio/목마름을 외치다.mp3" controls loop></audio><p>비를 기다리다</p><audio src="audio/비를 기다리다.mp3" controls loop></audio><br>
+            <img src="img/즛토마요.png"width="200"><h3 style="font-family: Arial">ZUTOMAYO</h3><p>풀네임 계속 한밤중이면 좋을 텐데.(ずっと真夜中でいいのに。)로 보컬/작사/작곡 담당인 ACAね를 주축으로 하는 일본 밴드이며 록, 힙합, 발라드 등 흑인 음악 장르를 하며 가전제품을 악기로 쓰는 특징이 있음. </p><br><h4 style="font-family: Arial">주요곡</h4><p>초침을 깨물다</p><audio src="audio/초침을 깨물다.mp3" controls loop></audio><p>MIRROR TUNE</p><audio src="audio/MIRROR TUNE.mp3" controls loop></audio><br>
+            <img src="img/tuki.png" width="200"><h3 style="font-family: Arial">tuki.</h3><p>일본의 싱어송라이터로서 14세에 만든 만찬가가 폭발적인 인기를 얻으며 주목을 얻었고, 노래 장르가 다양한 것이 특징.</p><br><h4 style="font-family: Arial">주요곡</h4><p>만찬가</p><audio src="audio/만찬가.mp3" controls loop></audio><p>휴우루리라파파</p><audio src="audio/휴우루리라파파.mp3" controls loop></audio><br>
+            <h2 style="font-family: Arial">스포츠</h2><br>
+            <img src="img/삼성라이온즈.png" width="200"><p>야구팀 삼성라이온즈로 2011~2014년 4년 연속 우승으로 왕조를 세움, 이 이유로 팬이 됨.</p><br>
+            <img src="img/첼시.png" width="200"><p>영국 프리미어리그의 첼시로 2021년 유럽 축구 클럽 대항전인 유로파 챔피언스 리그에서 우승을 하게 된 계기로 팬이 됨.</p><br>
+            <img src="img/맥라렌.png" width="200"><p>영국의 슈퍼카 제조사인 맥라렌의 F1팀으로 F1 더 무비를 보고 F1에 관심이 생겨 보던 중 맥라렌 F1팀이 잘해서 팬이 됨.</p><br>
+            <h2 style="font-family: Arial">음식</h2><br>
+            <img src="img/고기.png" width="200"><p>고기</p><br>
+            <img src="img/게임패드.png" width="200"><p>어렸을때부터 핸드폰이랑 컴퓨터를 하다 보니 게임에 관심이 많이 생김.</p><br>
+            <h1 style="font-family: Arial"><b>싫어하는 것</b></h1><br>
+            <img src="img/야채.jpg" width="200"><p>야채의 식감과 맛이 싫음.</p><br>
+            <img src="img/여름.png" width="200"><p>더워서 땀이 나는 것을 싫어함.</p>
+        </article>
+    </div>
+</body>
+</html>
